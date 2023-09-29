@@ -1,0 +1,377 @@
+/*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0; /*adds margins*/
+  padding: 0;
+  overflow: hidden; /*if content goes over area it doesn't spill*/
+  background-color: #41C1BA; /*chages backgorund color*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left; /*object on left side*/
+}
+li a {
+  display: block;
+  color: #365B6D; /*changes font color*/
+  text-align: center;
+  padding: 24px 34px; /*adds padding*/
+  text-decoration: none; /*underline, bold, etc.*/
+}
+li:hover {
+  background-color: lightgray; 
+}
+
+/*images*/
+.jin {
+  margin-top:50px;
+  margin-left:320px;
+}
+.big {
+  border-radius: 10%; /*rounds the border*/
+  position: absolute;  /*defines positoin*/
+  left: 1050px; /*how far left*/
+  bottom: 370px; /*how far from bottom*/
+}
+.dig{
+  position: absolute;
+  left: 150px;
+  bottom:50px;
+}
+.aig {
+  position: absolute;
+  left: 500px;
+  bottom: 50px;
+}
+.qig {
+  position: absolute;
+  left: 140px;
+  top: 750px;
+} 
+.lig {
+  position: absolute;
+  left: 980px;
+  top: 780px;
+} 
+
+.fish {
+  margin: 100px;
+}
+.fig {
+   margin: 100px;
+}
+.pig{
+  background-image: url('images/back.png') /*adds background image*/
+}
+.mig {
+  margin: 100px;
+  text-align: center;
+  font-size:50px;
+  color: #365B6D;
+}
+
+/*calendar*/
+#calendar{
+    width: 200px;
+    height: 250px;
+    background-color: #41C1BA;
+    color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.4); /*adds shadow*/
+position: absolute;
+  left: 1050px;
+  bottom: 70px;
+}
+#calendar>p{
+    font-family: times new roman; /*changes font */
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+#calendar-day{
+    font-size: 30px;
+}
+#calendar-month-year{
+    font-size: 28px;
+}
+#calendar-date{
+    font-size: 80px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.cacn{
+  background-color:#F2F1EC;
+}  
+.zig {
+  background-color: #F2F1EC;
+}
+/*creator page*/
+
+.clu {
+  position: absolute;
+  left: 200px;
+  bottom: 500px; 
+  color:white;
+
+}
+.gra {
+  position: absolute;
+  left: 480px;
+  bottom: 380px; 
+  color:white;
+
+}
+.gen {
+  position: absolute;
+  left: 190px;
+  bottom: 350px; 
+  color:white;
+
+}
+.des {
+  position: absolute;
+  left: 700px;
+  bottom: 500px; 
+  color: white;
+}
+.pes {
+  position: absolute;
+  left: 920px;
+  bottom: 370px; 
+
+}
+
+
+/*sign in page*/
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin-top: 150px;
+  margin-left: 520px;
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #41C1BA;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "times new roman";
+  outline: 0;
+  background: #F2F1EC;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "times new roman";
+  text-transform: uppercase;
+  outline: 0;
+  background: #F2F1EC;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #365B6D;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #DBDADA;
+}
+.mmg{
+  background:#F2F1EC;
+
+}
+
+/*contact page*/
+.log {
+ background-image: url('images/ee.png')
+}
+.contact-form-wrapper {
+  padding: 100px 0;
+}
+.contact-form {
+  font-family: "times new roman";
+  padding: 30px 40px;
+  background-color: #41C1BA;
+  border-radius: 12px;
+  max-width: 400px;
+  margin-top:100px;
+}
+.contact-form textarea {
+  resize: none;
+}
+.contact-form .form-input,
+.form-text-area {
+  background-color: #F2F1EC;
+  height: 50px;
+  padding-left: 16px;
+}
+.contact-form .form-text-area {
+  background-color: #F2F1EC;
+  height: auto;
+  padding-left: 16px;
+}
+.contact-form .form-control::placeholder {
+  color:#365B6D;
+  font-weight: 500;
+  opacity: 1;
+}
+.contact-form .form-control:-ms-input-placeholder {
+  color: #365B6D;
+  font-weight: 500;
+}
+.contact-form .form-control::-ms-input-placeholder {
+  color: #365B6D;
+  font-weight: 500;
+}
+.contact-form .form-control:focus {
+  border-color: #365B6D;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #365B6D;
+}
+.contact-form .title {
+  color:#365B6D;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contact-form .description {
+  color: #365B6D;
+  font-size: 14px;
+  text-align: center;
+}
+.contact-form .submit-button-wrapper {
+  text-align: center;
+}
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 4px;
+  background-color: #365B6D;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #365B6D;
+}
+.lll{
+  background-color:#F2F1EC;
+}
+.tha{
+  font-family:"times new roman";
+  font-size:55px;
+  color: #365B6D;
+  position: absolute;
+  left: 450px;
+  top: 250px;
+}
+
+/*search page*/
+.gren {
+  position: absolute;
+  left: 500px;
+  top: 400px;
+  color: white
+}
+.gif {
+  position: absolute;
+  left: 500px;
+  top: 450px;
+}
+.gram {
+  position: absolute;
+  left: 820px;
+  top: 300px;
+  color: white;
+}
+.gip {
+  position: absolute;
+  left: 820px;
+  top: 350px;
+  color: white;
+}
+.cle {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+  color:white;
+}
+.cip {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  color:white;
+}
+.pip {
+  position: absolute;
+  left: 500px;
+  top: 500px;
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+input[type=text] {
+  position: absolute; /*positioned relative to its normal position*/
+  left: 55px;
+  bottom: 550px;
+  width: 130px;
+  box-sizing: border-box; /*sets how the total width and height of an element is calculated*/
+  border: none; 
+  border-radius: none;  /*defines radius*/
+  font-size: 20px; /*defines size of text*/
+  font-family: 'Suranna', serif; /*defines font of text*/
+  background-color: #F2F1EC;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin: 250px 325px;
+  width: 25%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out; 
+}
+input[type=text]:focus {
+  width: 45%;
+}
+
+/*result page*/
+.mee{
+    background-color: #F2F1EC;
+  color:#365B6D;
+}
+.gill{
+  position: absolute;
+  left: 520px;
+  top: 400px;
+}
+.go{
+  position: absolute;
+  left: 520px;
+  top: 200px;
+}
+.fill{
+  position: absolute;
+  left: 520px;
+  top: 1000px;
+}
+.logo {
+  position: absolute;
+  left: 8w0px;
+  top: 100px;
+}
