@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>result page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/eb7c60fa3b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bilp">
+  <div id="NavBar">
+    <ul class="navList">
+      <li style="float:left"> <a href="https://ooo.mehaks.repl.co/" class="fff"><i
+            class="fa-solid fa-house"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/sign_in.html"
+          class="fff"><i class="fa-solid fa-user"></i></a></li>
+      
+       <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/contact.html" class="fff"><i class="fa-solid fa-message"></i></a>
+       </li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/calendar.html"
+          class="fff"><i class="fa-solid fa-calendar-days"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/search.html"
+          class="fff"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/creator.html"
+          class="fff"><i class="fa-solid fa-plus"></i></a></li>   
+    </ul>
+
+      
+  </div>
+  <br><br>
+  <!--This is where the search bar to search announcements will be-->
+  <div class="container">
+    <img src="images/bak.png" class="fin" width="800" height="1000">
+    <div class="search-container">
+      <input type="text" name="search" placeholder="What Are You Looking For?">
+  <form>
+    <!--Grades checkboxes-->
+    <section>
+      <h3 class="gram">Grade:</h3>
+      <div class="gip">
+        <input id="htmlSGrade9" type="checkbox" value="9">
+        <label for="htmlSGrade9">9</label><br>
+        <input id="htmlSGrade10" type="checkbox" value="10">
+        <label for="htmlSGrade10">10</label><br>
+        <input id="htmlSGrade11" type="checkbox" value="11">
+        <label for="htmlSGrade11">11</label><br>
+        <input id="htmlSGrade12" type="checkbox" value="12">
+        <label for="htmlSGrade12">12</label><br>
+        <input id="htmlSGradeNone" type="checkbox" value="None">
+        <label for="htmlSGradeNone">None</label><br>
+      </div>
+    </section>
+    <!--Clubs Dropdown list-->
+    <section>
+      <h3 class="cle">Club:</h3>
+      <div class="cip">
+        <select id="htmlSClub">
+          <option value="None">None</option>
+          <option value="DECA">DECA</option>
+          <option value="HOSA">HOSA</option>
+          <option value="Model-UN">Model-UN</option>
+          <option value="Hackathon">Hackathon</option>
+          <option value="Black Diamonds">Black Diamonds</option>
+          <option value="SAC">SAC</option>
+          <option value="COY">COY</option>
+        </select>
+      </div>
+    </section>
+    <!--Category Dropdown list-->
+    <section>
+      <h3 class="gren">Category:</h3>
+      <div class="gif">
+        <select id="htmlSCategory">
+          <option value="None">None</option>
+          <option value="Sports">Sports</option>
+          <option value="Arts & Yearbook">Arts & Yearbook</option>
+          <option value="Academics">Academics</option>
+          <option value="Music">Music</option>
+          <option value="Assembly">Assembly</option>
+          <option value="University Applications">University Applications</option>
+          <option value="Volunteering Hours">Volunteering Hours</option>
+          <option value="School year 2021-2022 Calendar">School 2021-2022 Calendar</option>
+        </select>
+      </div>
+    </section>
+    <br>
+  </form>
+  <!--The Search button-->
+  <!--connects the student search button to student javascript-->
+  <a href="results.html">
+    <button onclick="getStudentDetails()" type="submit" value="submit" class="pip">Search</button>
+    </div>
+  
+</body>
+
+</html>
