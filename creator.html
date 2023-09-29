@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>result page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="creator.js"></script>
+   <script src="https://kit.fontawesome.com/eb7c60fa3b.js" crossorigin="anonymous"></script>
+</head>
+<body onload="getExistingAnnouncements()" class= "zig">
+ <div id="NavBar">
+    <ul class="navList">
+      <li style="float:left"> <a href="https://ooo.mehaks.repl.co/" class="fff"><i
+            class="fa-solid fa-house"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/sign_in.html"
+          class="fff"><i class="fa-solid fa-user"></i></a></li>
+      
+       <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/contact.html" class="fff"><i class="fa-solid fa-message"></i></a>
+       </li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/calendar.html"
+          class="fff"><i class="fa-solid fa-calendar-days"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/search.html"
+          class="fff"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
+      <li style="float:right" class="nacIcon"><a href="https://ooo.mehaks.repl.co/creator.html"
+          class="fff"><i class="fa-solid fa-plus"></i></a></li>   
+    </ul>
+
+      
+  </div>
+  <!--Grades checkboxes-->
+  <!-- <form> -->
+  <section  class="gra"> <!--defines a section-->
+    <h3>Grade:</h3> <!--makes checkboxes-->
+      <input id="htmlTGrade9" type="checkbox" value="9">
+      <label for="htmlTGrade9">9</label><br>
+      <input id="htmlTGrade10" type="checkbox" value="10">
+      <label for="htmlTGrade10">10</label><br>
+      <input id="htmlTGrade11" type="checkbox" value="11">
+      <label for="htmlTGrade11">11</label><br>
+      <input id="htmlTGrade12" type="checkbox" value="12">
+      <label for="htmlTGrade12">12</label><br>
+      <input id="htmlTGradeNone" type="checkbox" value="None">
+      <label for="htmlTGradeNone">None</label><br>
+  </section>
+  <!--Clubs Dropdown list-->
+  <section class="clu">
+    <h3>Club:</h3> <!--dropdown menu-->
+      <select id="htmlTClub">
+        <option value="None">None</option>
+        <option value="DECA">DECA</option>
+        <option value="HOSA">HOSA</option>
+        <option value="Hack">Hack Club</option>
+        <option value="Chess">Chess Club</option>
+        <option value="Film">Film Club</option>
+      </select>
+  </section>
+  <!--Category Dropdown list-->
+  <section class="gen">
+    <h3>Category:</h3>
+      <select id="htmlTCategory">
+        <option value="None">None</option>
+        <option value="Sports">Sports</option>
+        <option value="Arts & Yearbook">Arts & Yearbook</option>
+        <option value="Busing">Busing</option>
+        <option value="Music">Music</option>
+        <option value="Assembly">Assembly</option>
+        <option value="University">University</option>
+        <option value="Volunteering">Volunteering Hours</option>
+      </select>
+  </section>
+  <br>
+  <section class="des">
+    <label for="Announcement">
+    </label>
+    <br> <!--textarea makes place to write things-->
+    <textarea id="htmlTAnnouncement" rows="5" cols="60" class="Announcement">Announcement Description</textarea>
+  </section>
+  <br>
+  <!--Post button to save and post the announcement-->
+  <!--The getTeacherDetails() function runs teacher js when you click on the Post button because of onclick -->
+  <button onclick="getTeacherDetails()" type="submit" value="submit" class="pes">Post</button>
+ <img src="images/baa.png" class="baa" width="1380" height="650"> 
+<a href="https://www.peelschools.org/schools/northpark/Pages/default.aspx">website</a>
+</body>
+
+</html>
